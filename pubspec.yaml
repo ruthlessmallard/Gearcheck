@@ -1,4 +1,4 @@
-name: ppe_reminder
+name: gearcheck
 description: "PPE checklist app for mining operations with voice prompts."
 publish_to: 'none'
 
