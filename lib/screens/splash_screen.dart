@@ -108,6 +108,16 @@ class _SplashScreenState extends State<SplashScreen>
                     letterSpacing: 0.3,
                   ),
                 ),
+                const SizedBox(height: 6),
+                const Text(
+                  'This is a reminder app only.\nAlways follow your site\'s official safety procedures.',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    color: Colors.white30,
+                    fontSize: 11,
+                    height: 1.5,
+                  ),
+                ),
 
                 const SizedBox(height: 64),
 
