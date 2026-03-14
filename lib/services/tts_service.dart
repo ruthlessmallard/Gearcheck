@@ -32,6 +32,9 @@ class TtsService {
       if (item.toLowerCase() == 'drive safe') {
         return 'Remember to drive safely';
       }
+      if (item.toLowerCase().contains('mine belt')) {
+        return 'Remember your mine belt';
+      }
       return 'Time to $item';
     }
     return 'Please check your $item';
