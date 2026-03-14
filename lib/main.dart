@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'screens/home_screen.dart';
+import 'screens/splash_screen.dart';
 
 void main() {
-  runApp(const PpeReminderApp());
+  runApp(const GearCheckApp());
 }
 
-class PpeReminderApp extends StatelessWidget {
-  const PpeReminderApp({super.key});
+class GearCheckApp extends StatelessWidget {
+  const GearCheckApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'PPE Reminder',
+      title: 'GearCheck',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.dark,
@@ -22,7 +22,7 @@ class PpeReminderApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const HomeScreen(),
+      home: const SplashScreen(),
     );
   }
 }

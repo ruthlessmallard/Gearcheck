@@ -24,7 +24,7 @@ class HomeScreen extends StatelessWidget {
             ),
             const SizedBox(width: 10),
             const Text(
-              'PPE Reminder',
+              'GearCheck',
               style: TextStyle(
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
