@@ -30,7 +30,7 @@ class TtsService {
   String buildPhrase(String categoryName, String item) {
     if (categoryName == 'Travel Home') {
       if (item.toLowerCase() == 'drive safe') {
-        return 'Remember to drive safe';
+        return 'Remember to drive safely';
       }
       return 'Time to $item';
     }
